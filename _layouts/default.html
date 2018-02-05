@@ -18,6 +18,18 @@
         <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+        <p class="view">
+        <b><h2>Projects</h2></b>
+        <ul>
+          <li>RedVsBlue</li>
+          <li>IPINT</li>
+          <li>PowerSteg</li>
+          <li>HNIDS</li>
+        </ul>
+
+        <b><h2>Blog Posts</h2></b>
+        </p>
+        
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
         {% endif %}
@@ -33,17 +45,7 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-        <p class="view">
-        <b><h2>Projects</h2></b>
-        <ul>
-          <li>RedVsBlue</li>
-          <li>IPINT</li>
-          <li>PowerSteg</li>
-          <li>HNIDS</li>
-        </ul>
 
-        <b><h2>Blog Posts</h2></b>
-        </p>
       </header>
       <section>
 
