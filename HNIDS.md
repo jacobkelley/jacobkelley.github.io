@@ -11,7 +11,6 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
         <h1>Host-Based Network Intrusion Detection System</h1>
         <p>
         Blog Posts
@@ -33,7 +32,6 @@
           </ul>
         {% endif %}
 
-      </header>
       <section>
 
         <p>
