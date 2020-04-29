@@ -1,3 +1,7 @@
+layout: page
+title: "Host-Based Network IDS"
+permalink: /HNIDS.html
+
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
