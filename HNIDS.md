@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
+        <h1>Host-Based Network Intrusion Detection System</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
       
         <p>
