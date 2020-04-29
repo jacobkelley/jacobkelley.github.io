@@ -1,6 +1,6 @@
 layout: page
 title: "Host-Based Network IDS"
-permalink: https://jacobkelley.github.io/HNIDS.md
+permalink: https://jacobkelley.github.io/
 
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
