@@ -15,18 +15,6 @@
     <div class="wrapper">
       <header>
         <h1>Host-Based Network Intrusion Detection System</h1>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-      
-        <p>
-        Projects
-        </p>
-        <ol style="float:none">
-          <li style="float:none">IPINT</li>
-          <li style="float:none">PowerSteg</li>
-          <li style="float:none">RedVsBlue</li>
-          <li style="float:none"><a href="/Projects/HNIDS.html">HNIDS</a></li>
-        </ol>
-
         <p>
         Blog Posts
         </p>
