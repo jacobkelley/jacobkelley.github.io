@@ -12,38 +12,19 @@
   <body>
     <div class="wrapper">
         <h1>Host-Based Network Intrusion Detection System</h1>
-
-        
-        {% if site.github.is_project_page %}
-          <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ github_name }}</small></a></p>
-        {% endif %}
-
+        <br />
         HNIDS.ps1 began, as most of my programming projects do, as an idea that floated into my head one day.  I was working on the SOC (Security Operations Center) and noted how frequently I tended to look up hashes and ip addresses to determine the nature of files and systems that were communicating with hosts on my network.
         <br />
         I had already began to work on RedVsBlue, which is a project that aims to tie all of my projects together, and become a platform for any pentester or SOC analyst.  HNIDS fit perfectly into this project, where my goal is to have HNIDS run at a specific interval (every hour, or less if specified), and comb through Sysmon logs to gather all IP addresses and file hashes, and then catalog them to report back if any stick out as being worth further investigation.  
-
-Ultimately, this project is still in its early stages, but I can envision a case where there will be 2 variants of this script.  One will be the "everyone can and should use this" version, which just scans logs and reports back to the user if it sees anything that may be odd or suspicious.  The second version would be for deployment across a whole enterprise, which would send alerts via email to your enterprise's SOC team to enable faster incident response.
+        <br />
+        Ultimately, this project is still in its early stages, but I can envision a case where there will be 2 variants of this script.  One will be the "everyone can and should use this" version, which just scans logs and reports back to the user if it sees anything that may be odd or suspicious.  The second version would be for deployment across a whole enterprise, which would send alerts via email to your enterprise's SOC team to enable faster incident response.
 
       
       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+
       </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
-
-  {% if site.google_analytics %}
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-    </script>
-  {% endif %}
   </body>
 </html>
