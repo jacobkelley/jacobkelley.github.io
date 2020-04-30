@@ -17,9 +17,13 @@
         In order to simplify everything, I figured it would help to create a JavaScript extension that could inject IFRAMEs onto current websites, and which would have the secondary benefit of working independantly of the actual technological platform that you were utilizing to run the SOC.<br /><br />
         IPINT is the project that I created to assist SOC personnel with their investigations.  It pulls together sites like Censys, Shodan, ThreatMiner, ThreatCrowd, AlienVault, and IPINFO, to assist SOC personnel with investigating their suspicious network traffic.<br />
       Examples of IPINT in action follow:<br />
+      Example of IPINT Without Transparency:<br /><br />
       <img src="/assets/images/ELK_Platform_IPINT_1.png" /><br />
+      Example of IPINT WITH Transparency:<br /><br />
       <img src="/assets/images/ELK_Platform_IPINT_1_trans.png" /><br />
+      Example of IPINT Without Transparency:<br /><br />
       <img src="/assets/images/Fidelis_Platform_IPINT_1.png" /><br />
+      Example of IPINT Without Transparency:<br /><br />
       <img src="/assets/images/Fidelis_Platform_IPINT_1_trans.png" /><br />
             
       
