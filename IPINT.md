@@ -15,7 +15,13 @@
         <br /><br />
         IPINT is a project that I created to simplify the SOC (Security Operations Center) process for my fellow SOC personnel during a high-profile engagement.  We frequently would pull up sites like GreenSnow.co, ThreatMiner, VirusTotal, and Shodan, to determine what we were seeing in some network traffic, and it just seemed like we kept pulling up the same sites for OSINT over and over again. <br /><br />
         In order to simplify everything, I figured it would help to create a JavaScript extension that could inject IFRAMEs onto current websites, and which would have the secondary benefit of working independantly of the actual technological platform that you were utilizing to run the SOC.<br /><br />
-        IPINT is the project that I created to assist SOC personnel with their investigations.  It pulls together sites like Censys, Shodan, ThreatMiner, ThreatCrowd, AlienVault, and IPINFO, to assist SOC personnel with investigating their suspicious network traffic.
+        IPINT is the project that I created to assist SOC personnel with their investigations.  It pulls together sites like Censys, Shodan, ThreatMiner, ThreatCrowd, AlienVault, and IPINFO, to assist SOC personnel with investigating their suspicious network traffic.<br />
+      Examples of IPINT in action follow:<br />
+      <img src="/assets/images/ELK_Platform_IPINT_1.png" /><br />
+      <img src="/assets/images/ELK_Platform_IPINT_1_trans.png" /><br />
+      <img src="/assets/images/Fidelis_Platform_IPINT_1.png" /><br />
+      <img src="/assets/images/Fidelis_Platform_IPINT_1_trans.png" /><br />
+            
       
       <footer>
 
