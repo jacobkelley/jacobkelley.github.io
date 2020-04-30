@@ -13,7 +13,7 @@
     <div class="wrapper">
         <h1>Host-Based Network Intrusion Detection System</h1>
         <br /><br />
-        HNIDS.ps1 began, as most of my programming projects do, as an idea that floated into my head one day.  I was working on the SOC (Security Operations Center) and noted how frequently I tended to look up hashes and ip addresses to determine the nature of files and systems that were communicating with hosts on my network.
+        HNIDS.ps1 began, as most of my programming projects do, as an idea that spontaneously occurred to me one day.  I was working on the SOC (Security Operations Center) and noted how frequently I tended to look up hashes and ip addresses to determine the nature of files and systems that were communicating with hosts on my network.
         <br /><br />
         I had already began to work on RedVsBlue, which is a project that aims to tie all of my projects together, and become a platform for any pentester or SOC analyst.  HNIDS fit perfectly into this project, where my goal is to have HNIDS run at a specific interval (every hour, or less if specified), and comb through Sysmon logs to gather all IP addresses and file hashes, and then catalog them to report back if any stick out as being worth further investigation.  
         <br /><br />
