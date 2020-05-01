@@ -19,7 +19,7 @@
         <br /><br />
         Ultimately, this project is still in its early stages, but I can envision a case where there will be 2 variants of this script.  One will be the "everyone can and should use this" version, which just scans logs and reports back to the user if it sees anything that may be odd or suspicious.  The second version would be for deployment across a whole enterprise, which would send alerts via email to your enterprise's SOC team to enable faster incident response.
       <br /><br />
-      <img src="/assets/HNIDS_Screenshot.png" />
+      <img src="/assets/images/HNIDS_Screenshot.png" />
 
       
       <footer>
