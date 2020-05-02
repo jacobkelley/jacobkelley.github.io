@@ -18,7 +18,7 @@
         During an offensive penetration test with a Fortune 10 company, we were tasked with exfiltrating files out of their network, to simulate a disgruntled employee.  
         To test their DLP (Data-Loss Prevention) system, I wrote a program to insert PowerShell commands into images, and use those commands to then run instructions to exfiltrate information past their Layer 7 Palo Alto firewall.<br /><br />
         We utilized a built-in Windows Update icon to smuggle in commands, to generate more trust, in case SOC personnel did see our traffic during the engagement.<br /><br />
-        <b>Here is out image we used from a default Windows installation, without any steg info:</b><br />
+        <b>Here is the image we used from a default Windows installation, without any steg info:</b><br />
         <img src="/assets/images/Windows_Update_With_Steg.png" width="460" height="460"><br /><br />
       <b>...And here is the image with Steg command information:</b><br />
         <img src="/assets/images/Windows_Update_Without_Steg.png" width="460" height="460"><br />      
