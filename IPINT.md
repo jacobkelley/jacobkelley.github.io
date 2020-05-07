@@ -24,7 +24,7 @@
       <img src="/assets/images/ELK_Platform_IPINT_1_trans.png" /><br /><br />
       <u>Example of IPINT Without Transparency:</u><br />
       <img src="/assets/images/Fidelis_Platform_IPINT_1_Full.png" /><br /><br />
-      <u>Example of IPINT Without Transparency:</u><br />
+      <u>Example of IPINT With Transparency:</u><br />
       <img src="/assets/images/Fidelis_Platform_IPINT_1_trans.png" /><br /><br />
             
       
