@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+Square Open Source Portal
+=========================
 
-You can use the [editor on GitHub](https://github.com/jacobkelley/jacobkelley.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/square/square.github.io.svg?branch=master)](https://travis-ci.org/square/square.github.io)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+A simple, static portal which outlines our open source offerings. Intentionally
+themed to look like a Square merchant page on the directory.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Development
+-----------
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Run the site locally
+```bash
+gem install bundler # first time only
+bundle install # first time only
+bundle exec jekyll serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Update list of repos:
+```bash
+pip install pystache requests pygithub3 # first time only
+./generate.py
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jacobkelley/jacobkelley.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+About the code
+-----------
+Due to the use of absolute URLs in CSS files that are (essentially) out of our
+control, the easiest way to develop is by running with Jekyll.
 
-### Support or Contact
+Repositories are listed in the `repos.json` file as a map of repository names
+to a list of their categories. Invoking the `generate.py` script will update
+the `index.html` page with the latest repos by using the `index.mustache` file
+as a template.
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Repository data is pulled via the GitHub API (e.g., website). By default the
+script performs unauthenticated requests, so it's easy to run up against
+GitHub's limit of [60 unauthenticated requests per
+hour](http://developer.github.com/v3/#rate-limiting). To make authenticated
+requests and work around the rate-limiting, add an entry for api.github.com to
+your ~/.netrc file, preferably with a Personal Access Token from
+https://github.com/settings/tokens
+
+    machine api.github.com
+      login YourUsername
+      password PersonalAccessToken
+
+Images are loaded by convention from the `repo_images/` directory. Ensure the
+name is the same as the repo name in the `repos.json` file and has a `.jpg`
+extension. Currently all images are rotated 10 degrees counter-clockwise to
+break up the overwhelming horizontal and vertical visual lines on the page.
