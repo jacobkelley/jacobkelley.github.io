@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jpkelleyak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jacobkelley.github.io
+  * I am jpkelleyak (https://keybase.io/jpkelleyak) on keybase.
+  * I have a public key ASDbWW4ZwuZKbJRUC7SRRC5E9BA_-E9uaVxN4B3uqr0GBwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010142fb443aafc966dddd201c6b4f686190421e27e416f468df0b279b8deef914320a",
+      "host": "keybase.io",
+      "kid": "0120db596e19c2e64a6c94540bb491442e44f4103ff84f6e695c4de01deeaabd06070a",
+      "uid": "ec653352be75f6bf489fef6c552a0c19",
+      "username": "jpkelleyak"
+    },
+    "merkle_root": {
+      "ctime": 1616521683,
+      "hash": "37e0da2466642047cd7e0efa45128dc792990860ee4dc522548416675398faf3897f9f8c4bac36f5e3b0fed3be3481258d8e3618c1ff7603b6954072a6321b52",
+      "hash_meta": "bd6de2bc7ef3f8a35313e2c55a6b4ed7c5d224936394b93b5c00286652d93838",
+      "seqno": 19450069
+    },
+    "service": {
+      "entropy": "CEOrOLYPqbklJO6H0Tab0P1H",
+      "hostname": "jacobkelley.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1616521698,
+  "expire_in": 504576000,
+  "prev": "ff4be893ff809931107a93f750800d8459cef910d6564b533c6ee00196083f48",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg21luGcLmSmyUVAu0kUQuRPQQP/hPbmlcTeAd7qq9BgcKp3BheWxvYWTESpcCE8Qg/0vok/+AmTEQepP3UIANhFnO+RDWVktTPG7gAZYIP0jEIFGNz+IbbMyz+yldWHvp7ljYQkRQbRKrtxP7DvyO0VZjAgHCo3NpZ8RAzFzlJPPTbSFqRAVwA4GqeLYIAJI6/DhUErO6Tvp996e6qwrlOlBIaa6uYkRGRBoCQGnu3Wd7fk1QVCQc548OBqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIID+zWHawVdde0mADAX7gzCmIC2m49GgksdQYm2ErCN3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jpkelleyak
+
+==================================================================
